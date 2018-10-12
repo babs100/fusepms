@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "FusePMS",
+    "packageName": "com.babstudio.fusepms",
+    "packageFolder": "com/babstudio/fusepms",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.4.2",
+    "jwtSecretKey": "MjRhYmYxNWI1OTRmNmU2MTQwYmUwMjk5ZmI5N2E2NTU3ZWQzMWE3MTc2ZTY5YzQxZTU5ZGU1MGQ5MjdmYTMyMzBmYjY2MGE3YmE0ODMyNDkwN2JmYzE2MWYwOTU0MGUzZjA5OTQxYTUzNDY2N2NhZTg4YzIzYTg4NDJkNTUxMjY=",
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "babs100",
+  "repository-name": "fusepms"
+}
